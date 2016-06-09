@@ -1,10 +1,10 @@
 ---
 applications:
 - name: springbox-auth-server
-  host: auth-server
+  host: auth-server-${random-word}
   memory: 1G
   instances: 1
   env:
       SPRING_PROFILES_ACTIVE: cloud
-      CF_TARGET: https://api.pcf1.fe.gopivotal.com
+      CF_TARGET: https://api.run.pez.pivotal.io
   path: target/springbox-auth-server-0.0.1-SNAPSHOT.jar
