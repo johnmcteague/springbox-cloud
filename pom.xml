@@ -21,7 +21,7 @@
     <parent>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-parent</artifactId>
-        <version>Brixton.RELEASE</version>
+        <version>Brixton.SR1</version>
         <relativePath/>
     </parent>
 
